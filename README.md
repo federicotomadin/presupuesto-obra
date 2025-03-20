@@ -33,6 +33,7 @@ Esta herramienta proporciona un análisis detallado de los gastos de construcci�
 
 - HTML5
 - CSS3 (con Bootstrap 5.3.0)
+- TypeScript
 - JavaScript
 - Chart.js 3.9.1 para visualizaciones de datos
 
@@ -43,9 +44,20 @@ Esta herramienta proporciona un análisis detallado de los gastos de construcci�
    git clone https://github.com/yourusername/presupuesto-obra.git
    ```
 
-2. Abre el archivo `index.html` en tu navegador web preferido.
+2. Si deseas realizar cambios en el código TypeScript:
+   - Asegúrate de tener TypeScript instalado:
+     ```
+     npm install -g typescript
+     ```
+   - Compila el archivo TypeScript a JavaScript:
+     ```
+     tsc scripts.ts
+     ```
+   - El archivo compilado `scripts.js` se generará automáticamente.
 
-3. Explora las diferentes secciones para analizar los datos del proyecto de construcción.
+3. Abre el archivo `index.html` en tu navegador web preferido.
+
+4. Explora las diferentes secciones para analizar los datos del proyecto de construcción.
 
 ## 📊 Secciones Principales
 
